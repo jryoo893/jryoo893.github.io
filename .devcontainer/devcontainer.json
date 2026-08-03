@@ -2,14 +2,19 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
   "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  // Pinned by tag + digest so the image never silently drifts. A floating tag
+  // changes the computed config hash and makes VS Code build a brand new
+  // container on startup instead of reusing the existing one.
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2.2.9-3.4-bookworm@sha256:6669564496e93a31fab258f92c1264197a03626b0dbdf9150b7039c4a8ea5ed6",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
+  // Pinned to exact versions (matching .devcontainer/devcontainer-lock.json) for
+  // the same reason -- ":1" floats and re-resolves to new digests over time.
   "features": {
-    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1.0.2": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
     },
-    "ghcr.io/devcontainers-extra/features/prettier:1": {}
+    "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {}
   },
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
@@ -26,6 +31,10 @@
       }
     }
   },
+
+  // Stop the container when the window closes instead of leaving it running --
+  // it is reused (not recreated) on the next open. Never use "none" here.
+  "shutdownAction": "stopContainer",
 
   "remoteUser": "vscode"
 }
