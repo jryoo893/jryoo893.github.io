@@ -3,7 +3,7 @@ layout: default
 title: CV
 cv_pdf: cv.pdf
 permalink: /cv/
-nav: true
+nav: false
 nav_order: 3
 ---
 
