@@ -3,7 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: Assistant Professor<br><a href='https://www.fdu.edu/academics/colleges-schools/olsen/'>Olsen College of Engineering and Science</a><br><a href='https://www.fdu.edu/'>Fairleigh Dickinson University</a><br><br>239-842 Cambie St<br>Vancouver, BC  V6B 2P6<br>778-726-4199<br> j.ryoo@fdu.edu
-cv_pdf: resume.pdf
 
 profile:
   align: right
@@ -17,9 +16,9 @@ social: false # includes social icons at the bottom of the page
 
 I am an assistant professor in the Olsen College of Engineering and Science at Fairleigh Dickinson University and lead the Computer Systems Laboratory at FDU-Vancouver. I am also a member of the [AIEDU Lab](https://www.aiedulab.ca/). My research group largely works in workload characterization, computer architecture, and operating systems. Specifically, my work improves memory systems in the computer systems domain by analyzing workloads. In the learning-technology domain, my research focuses on generative artificial intelligence in computer science education by developing applications and deploying them in real classroom settings.
 
-Prior to joining FDU, I was a faculty member in the School of Computing and Academic Studies at the British Columbia Institute of Technology. I was a software engineer at Oracle (2017) and ARM (2018) in the San Francisco Bay Area. I received my Ph.D. (2017) and M.S. (2014) in Electrical and Computer Engineering at the University of Texas at Austin. I received a B.S. (2011) in Electrical and Computer Engineering at Cornell University.
+Prior to joining FDU, I was a faculty member in the School of Computing and Academic Studies at the British Columbia Institute of Technology. I was a Senior Software Engineer at Oracle (2017) and a Senior Performance Engineer at ARM (2018) in the San Francisco Bay Area. I received my Ph.D. (2017) and M.S. (2014) in Electrical and Computer Engineering at the University of Texas at Austin. I received a B.S. (2011) in Electrical and Computer Engineering at Cornell University.
 
-I am looking for motivated students, and I want to be a great adviser. I believe that this can happen if and only if we share passion in the research area. You can take a look at my research interests and publications. I believe that the best way to get to know me is to take one of my classes or work with me on a project. If you think that we can maintain such a relationship, please send me an email describing your interests in one of the topics that I work on.
+I am looking for motivated students, and I want to be a great adviser. I believe that this can happen if and only if we share passion in the research area. You can take a look at my research interests and publications. I believe that the best way to get to know me is to take one of my classes or work with me on a project. If you are interested in working with me, please send me an email describing your interests in one of the topics that I work on.
 
 <h3>Research Interests</h3>
 <ul>
@@ -28,5 +27,6 @@ I am looking for motivated students, and I want to be a great adviser. I believe
   <li>Operating systems</li>
   <li>Energy efficient hardware/software co-design</li>
   <li>Emerging workload and system characterization</li>
+  <li>AI and machine learning systems</li>
   <li>Education and learning technology</li>
 </ul>
